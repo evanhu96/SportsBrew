@@ -1,0 +1,141 @@
+
+#background {
+  height: 100%;
+  background-color: black;
+}
+
+.main-container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Set minimum height to fill the viewport */
+  width: 100vw;
+  overflow-y: auto;
+}
+.list-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+  border: 3px solid lightgreen;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.641);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+  height: 10vh;
+  width: 60vw;
+  display: flex; /* Use flexbox */
+  align-items: center; /* Vertically center */
+}
+
+/* If you want to center the container inside .list-item vertically */
+.list-item-container {
+  width: 100%;
+  /* Center container inside list item vertically */
+  display: flex;
+  align-items: center; /* Vertically center */
+  margin-left: 4vh;
+}
+
+.list-item:hover {
+  background-color: #e0e0e0;
+}
+
+/* Optional: Add more styles as needed */
+
+.list-item h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(25, 211, 25);
+  /* center vertically */
+}
+
+.list-item p {
+  margin: 0;
+  font-size: 14px;
+}
+.list-item-body {
+  margin-left: 4vh;
+  font-size: 14px;
+  display: flex;
+  width: 40vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.list-item-body span {
+  margin-left: 4vw;
+  /* vertically stacked and centered */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Vertically stack the elements */
+  align-items: center; /* Center items horizontally */
+}
+#odds {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: rgb(234, 87, 87);
+  font-weight: bold;
+  /* center */
+}
+.description {
+  margin: 5px;
+}
+.alttotals {
+  margin-right: 4vw;
+}
+/* ButtonGrid.css */
+
+#homeContainer{
+  width: 50vw;
+  margin-top: 20vh;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; 
+}
+
+.btn-lg {
+  padding: 20px 30px; /* Increase padding to make buttons larger */
+  font-size: 20px; /* Increase font size */
+  margin: 5px; /* Adjust margin between buttons */
+}
+
+
+.buttonCol{
+  display: flex;
+  justify-content: center;
+  
+}
+.homeButtons{
+  width:20vw
+}
+
+.listRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px; 
+  width: 60vw;
+}
+.selectButton{
+  width: 10vw;
+  margin: 5px;
+}
+
+.buttonRow {
+  display: flex;
+  flex-basis: 33.33%; /* 3 buttons per row */
+  justify-content: space-between;
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+.buttonGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
