@@ -16,9 +16,10 @@ import PropCalculator from "./pages/PropCalculator";
 import Rankings from "./pages/Rankings";
 import Stats from "./pages/Stats";
 const httpLink = createHttpLink({
-  uri: "http://localhost:3001/graphql", // Replace with your server's GraphQL endpoint
+  uri: "http://3.141.216.229:3001/graphql",
+  // uri: "http://localhost:3001/graphql", // Replace with your server's GraphQL endpoint
 });
-
+// 
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");
   return {
