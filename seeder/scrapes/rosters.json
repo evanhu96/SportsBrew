@@ -1,0 +1,2198 @@
+{
+    "ATL": {
+        "4004": {
+            "name": "Patty Mills",
+            "number": "8"
+        },
+        "4032": {
+            "name": "Wesley Matthews",
+            "number": "32"
+        },
+        "3037789": {
+            "name": "Bogdan Bogdanovic",
+            "number": "13"
+        },
+        "3102529": {
+            "name": "Clint Capela",
+            "number": "15"
+        },
+        "3907497": {
+            "name": "Dejounte Murray",
+            "number": "5"
+        },
+        "3913180": {
+            "name": "Garrison Mathews",
+            "number": "25"
+        },
+        "4065656": {
+            "name": "Trent Forrest",
+            "number": "2"
+        },
+        "4065732": {
+            "name": "De'Andre Hunter",
+            "number": "12"
+        },
+        "4277905": {
+            "name": "Trae Young",
+            "number": "11"
+        },
+        "4277952": {
+            "name": "Bruno Fernando",
+            "number": "24"
+        },
+        "4397104": {
+            "name": "Miles Norris",
+            "number": "0"
+        },
+        "4397136": {
+            "name": "Saddiq Bey",
+            "number": "41"
+        },
+        "4431680": {
+            "name": "Onyeka Okongwu",
+            "number": "17"
+        },
+        "4431775": {
+            "name": "Seth Lundy",
+            "number": "3"
+        },
+        "4432585": {
+            "name": "AJ Griffin",
+            "number": "14"
+        },
+        "4683736": {
+            "name": "Kobe Bufkin",
+            "number": "4"
+        },
+        "4701230": {
+            "name": "Jalen Johnson",
+            "number": "1"
+        },
+        "4712863": {
+            "name": "Mouhamed Gueye",
+            "number": "18"
+        }
+    },
+    "BOS": {
+        "3213": {
+            "name": "Al Horford",
+            "number": "42"
+        },
+        "3995": {
+            "name": "Jrue Holiday",
+            "number": "4"
+        },
+        "3064560": {
+            "name": "Luke Kornet",
+            "number": "40"
+        },
+        "3078576": {
+            "name": "Derrick White",
+            "number": "9"
+        },
+        "3102531": {
+            "name": "Kristaps Porzingis",
+            "number": "8"
+        },
+        "3133602": {
+            "name": "Svi Mykhailiuk",
+            "number": "50"
+        },
+        "3917376": {
+            "name": "Jaylen Brown",
+            "number": "7"
+        },
+        "4065648": {
+            "name": "Jayson Tatum",
+            "number": "0"
+        },
+        "4065804": {
+            "name": "Sam Hauser",
+            "number": "30"
+        },
+        "4066354": {
+            "name": "Payton Pritchard",
+            "number": "11"
+        },
+        "4066405": {
+            "name": "Lamar Stevens",
+            "number": "77"
+        },
+        "4067325": {
+            "name": "Nathan Knight",
+            "number": "1"
+        },
+        "4278031": {
+            "name": "Oshae Brissett",
+            "number": "12"
+        },
+        "4397424": {
+            "name": "Neemias Queta",
+            "number": "88"
+        },
+        "4397885": {
+            "name": "Dalano Banton",
+            "number": "45"
+        },
+        "4576085": {
+            "name": "JD Davison",
+            "number": "20"
+        },
+        "4683689": {
+            "name": "Jordan Walsh",
+            "number": "27"
+        }
+    },
+    "BKN": {
+        "2578185": {
+            "name": "Dorian Finney-Smith",
+            "number": "28"
+        },
+        "2580782": {
+            "name": "Spencer Dinwiddie",
+            "number": "26"
+        },
+        "2583632": {
+            "name": "Royce O'Neale",
+            "number": "00"
+        },
+        "3138196": {
+            "name": "Cameron Johnson",
+            "number": "2"
+        },
+        "3147657": {
+            "name": "Mikal Bridges",
+            "number": "1"
+        },
+        "3907387": {
+            "name": "Ben Simmons",
+            "number": "10"
+        },
+        "4065649": {
+            "name": "Harry Giles III",
+            "number": "14"
+        },
+        "4065697": {
+            "name": "Dennis Smith Jr.",
+            "number": "4"
+        },
+        "4066450": {
+            "name": "Armoni Brooks",
+            "number": "13"
+        },
+        "4277890": {
+            "name": "Lonnie Walker IV",
+            "number": "8"
+        },
+        "4278067": {
+            "name": "Nic Claxton",
+            "number": "33"
+        },
+        "4431675": {
+            "name": "Trendon Watford",
+            "number": "9"
+        },
+        "4431714": {
+            "name": "Jalen Wilson",
+            "number": "22"
+        },
+        "4432174": {
+            "name": "Cam Thomas",
+            "number": "24"
+        },
+        "4432192": {
+            "name": "Keon Johnson",
+            "number": "45"
+        },
+        "4432194": {
+            "name": "Day'Ron Sharpe",
+            "number": "20"
+        },
+        "4432735": {
+            "name": "Dariq Whitehead",
+            "number": "0"
+        },
+        "4712896": {
+            "name": "Noah Clowney",
+            "number": "21"
+        }
+    },
+    "CHA": {
+        "4249": {
+            "name": "Gordon Hayward",
+            "number": "20"
+        },
+        "4305": {
+            "name": "Ish Smith",
+            "number": "14"
+        },
+        "3074752": {
+            "name": "Terry Rozier",
+            "number": "3"
+        },
+        "3138161": {
+            "name": "Cody Martin",
+            "number": "11"
+        },
+        "4066383": {
+            "name": "Miles Bridges",
+            "number": "0"
+        },
+        "4230547": {
+            "name": "Frank Ntilikina",
+            "number": "44"
+        },
+        "4278076": {
+            "name": "Nick Richards",
+            "number": "4"
+        },
+        "4278078": {
+            "name": "P.J. Washington",
+            "number": "25"
+        },
+        "4395650": {
+            "name": "Leaky Black",
+            "number": "12"
+        },
+        "4431712": {
+            "name": "James Bouknight",
+            "number": "2"
+        },
+        "4432816": {
+            "name": "LaMelo Ball",
+            "number": "1"
+        },
+        "4433287": {
+            "name": "Brandon Miller",
+            "number": "24"
+        },
+        "4576086": {
+            "name": "Bryce McGowens",
+            "number": "7"
+        },
+        "4683027": {
+            "name": "Theo Maledon",
+            "number": "9"
+        },
+        "4683686": {
+            "name": "Nick Smith Jr.",
+            "number": "8"
+        },
+        "4701232": {
+            "name": "Mark Williams",
+            "number": "5"
+        },
+        "4702233": {
+            "name": "JT Thor",
+            "number": "21"
+        },
+        "5105638": {
+            "name": "Amari Bailey",
+            "number": "10"
+        }
+    },
+    "CHI": {
+        "3978": {
+            "name": "DeMar DeRozan",
+            "number": "11"
+        },
+        "6478": {
+            "name": "Nikola Vucevic",
+            "number": "9"
+        },
+        "6585": {
+            "name": "Andre Drummond",
+            "number": "3"
+        },
+        "2528693": {
+            "name": "Torrey Craig",
+            "number": "13"
+        },
+        "2991350": {
+            "name": "Alex Caruso",
+            "number": "6"
+        },
+        "3064440": {
+            "name": "Zach LaVine",
+            "number": "8"
+        },
+        "3133635": {
+            "name": "Jevon Carter",
+            "number": "5"
+        },
+        "4066421": {
+            "name": "Lonzo Ball",
+            "number": "2"
+        },
+        "4279815": {
+            "name": "Terry Taylor",
+            "number": "32"
+        },
+        "4395651": {
+            "name": "Coby White",
+            "number": "0"
+        },
+        "4397002": {
+            "name": "Ayo Dosunmu",
+            "number": "12"
+        },
+        "4431687": {
+            "name": "Patrick Williams",
+            "number": "44"
+        },
+        "4432239": {
+            "name": "Justin Lewis",
+            "number": "34"
+        },
+        "4433159": {
+            "name": "Dalen Terry",
+            "number": "25"
+        },
+        "4438552": {
+            "name": "Onuralp Bitim",
+            "number": "17"
+        },
+        "4702023": {
+            "name": "Adama Sanogo",
+            "number": "21"
+        },
+        "5105553": {
+            "name": "Julian Phillips",
+            "number": "15"
+        }
+    },
+    "CLE": {
+        "4011": {
+            "name": "Ricky Rubio",
+            "number": "13"
+        },
+        "6474": {
+            "name": "Tristan Thompson",
+            "number": "12"
+        },
+        "2990969": {
+            "name": "Georges Niang",
+            "number": "20"
+        },
+        "2991043": {
+            "name": "Caris LeVert",
+            "number": "3"
+        },
+        "3064559": {
+            "name": "Damian Jones",
+            "number": "30"
+        },
+        "3908809": {
+            "name": "Donovan Mitchell",
+            "number": "45"
+        },
+        "3912848": {
+            "name": "Dean Wade",
+            "number": "32"
+        },
+        "4065733": {
+            "name": "Ty Jerome",
+            "number": "2"
+        },
+        "4065778": {
+            "name": "Max Strus",
+            "number": "1"
+        },
+        "4066328": {
+            "name": "Jarrett Allen",
+            "number": "31"
+        },
+        "4066757": {
+            "name": "Sam Merrill",
+            "number": "5"
+        },
+        "4396907": {
+            "name": "Darius Garland",
+            "number": "10"
+        },
+        "4432158": {
+            "name": "Evan Mobley",
+            "number": "4"
+        },
+        "4432815": {
+            "name": "Isaiah Mobley",
+            "number": "15"
+        },
+        "4432822": {
+            "name": "Isaac Okoro",
+            "number": "35"
+        },
+        "4433620": {
+            "name": "Emoni Bates",
+            "number": "21"
+        },
+        "4701233": {
+            "name": "Craig Porter",
+            "number": "9"
+        }
+    },
+    "DAL": {
+        "6442": {
+            "name": "Kyrie Irving",
+            "number": "11"
+        },
+        "6461": {
+            "name": "Markieff Morris",
+            "number": "88"
+        },
+        "2326307": {
+            "name": "Seth Curry",
+            "number": "30"
+        },
+        "2528210": {
+            "name": "Tim Hardaway Jr.",
+            "number": "10"
+        },
+        "2531367": {
+            "name": "Dwight Powell",
+            "number": "7"
+        },
+        "2960236": {
+            "name": "Maxi Kleber",
+            "number": "42"
+        },
+        "2993370": {
+            "name": "Richaun Holmes",
+            "number": "20"
+        },
+        "3102528": {
+            "name": "Dante Exum",
+            "number": "0"
+        },
+        "3936099": {
+            "name": "Derrick Jones Jr.",
+            "number": "55"
+        },
+        "3945274": {
+            "name": "Luka Doncic",
+            "number": "77"
+        },
+        "4066218": {
+            "name": "Grant Williams",
+            "number": "3"
+        },
+        "4067017": {
+            "name": "A.J. Lawson",
+            "number": "9"
+        },
+        "4396676": {
+            "name": "Dexter Dennis",
+            "number": "38"
+        },
+        "4432161": {
+            "name": "Greg Brown III",
+            "number": "36"
+        },
+        "4432811": {
+            "name": "Josh Green",
+            "number": "8"
+        },
+        "4595400": {
+            "name": "Olivier-Maxence Prosper",
+            "number": "18"
+        },
+        "4683688": {
+            "name": "Dereck Lively II",
+            "number": "2"
+        },
+        "4868423": {
+            "name": "Jaden Hardy",
+            "number": "1"
+        }
+    },
+    "DEN": {
+        "3442": {
+            "name": "DeAndre Jordan",
+            "number": "6"
+        },
+        "6443": {
+            "name": "Reggie Jackson",
+            "number": "7"
+        },
+        "2284101": {
+            "name": "Justin Holiday",
+            "number": "9"
+        },
+        "2581018": {
+            "name": "Kentavious Caldwell-Pope",
+            "number": "5"
+        },
+        "3064290": {
+            "name": "Aaron Gordon",
+            "number": "50"
+        },
+        "3112335": {
+            "name": "Nikola Jokic",
+            "number": "15"
+        },
+        "3936299": {
+            "name": "Jamal Murray",
+            "number": "27"
+        },
+        "4065731": {
+            "name": "Jay Huff",
+            "number": "30"
+        },
+        "4066240": {
+            "name": "Braxton Key",
+            "number": "11"
+        },
+        "4230557": {
+            "name": "Vlatko Cancar",
+            "number": "31"
+        },
+        "4278104": {
+            "name": "Michael Porter Jr.",
+            "number": "1"
+        },
+        "4278585": {
+            "name": "Collin Gillespie",
+            "number": "21"
+        },
+        "4395620": {
+            "name": "Hunter Tyson",
+            "number": "4"
+        },
+        "4398390": {
+            "name": "Jalen Pickett",
+            "number": "24"
+        },
+        "4431690": {
+            "name": "Zeke Nnaji",
+            "number": "22"
+        },
+        "4431767": {
+            "name": "Christian Braun",
+            "number": "0"
+        },
+        "4432181": {
+            "name": "Julian Strawther",
+            "number": "3"
+        },
+        "4576087": {
+            "name": "Peyton Watson",
+            "number": "8"
+        }
+    },
+    "DET": {
+        "3593": {
+            "name": "Bojan Bogdanovic",
+            "number": "44"
+        },
+        "6429": {
+            "name": "Alec Burks",
+            "number": "14"
+        },
+        "2528794": {
+            "name": "Joe Harris",
+            "number": "31"
+        },
+        "3059310": {
+            "name": "Monte Morris",
+            "number": "5"
+        },
+        "4277848": {
+            "name": "Marvin Bagley III",
+            "number": "35"
+        },
+        "4277957": {
+            "name": "Isaiah Livers",
+            "number": "12"
+        },
+        "4278075": {
+            "name": "Kevin Knox II",
+            "number": "24"
+        },
+        "4279532": {
+            "name": "Stanley Umude",
+            "number": "17"
+        },
+        "4397119": {
+            "name": "Jared Rhoden",
+            "number": "8"
+        },
+        "4432107": {
+            "name": "Marcus Sasser",
+            "number": "25"
+        },
+        "4432166": {
+            "name": "Cade Cunningham",
+            "number": "2"
+        },
+        "4432808": {
+            "name": "James Wiseman",
+            "number": "13"
+        },
+        "4432810": {
+            "name": "Isaiah Stewart",
+            "number": "28"
+        },
+        "4433218": {
+            "name": "Jaden Ivey",
+            "number": "23"
+        },
+        "4433621": {
+            "name": "Jalen Duren",
+            "number": "0"
+        },
+        "4683024": {
+            "name": "Killian Hayes",
+            "number": "7"
+        },
+        "4684742": {
+            "name": "Ausar Thompson",
+            "number": "9"
+        },
+        "4871137": {
+            "name": "Malcolm Cazalon",
+            "number": "20"
+        }
+    },
+    "GS": {
+        "2779": {
+            "name": "Chris Paul",
+            "number": "3"
+        },
+        "3975": {
+            "name": "Stephen Curry",
+            "number": "30"
+        },
+        "6446": {
+            "name": "Cory Joseph",
+            "number": "1"
+        },
+        "6475": {
+            "name": "Klay Thompson",
+            "number": "11"
+        },
+        "6589": {
+            "name": "Draymond Green",
+            "number": "23"
+        },
+        "3032978": {
+            "name": "Dario Saric",
+            "number": "20"
+        },
+        "3059319": {
+            "name": "Andrew Wiggins",
+            "number": "22"
+        },
+        "3134903": {
+            "name": "Gary Payton II",
+            "number": "0"
+        },
+        "3155535": {
+            "name": "Kevon Looney",
+            "number": "5"
+        },
+        "3943606": {
+            "name": "Jerome Robinson",
+            "number": "18"
+        },
+        "4431684": {
+            "name": "Trayce Jackson-Davis",
+            "number": "32"
+        },
+        "4431720": {
+            "name": "Lester Quinones",
+            "number": "25"
+        },
+        "4432171": {
+            "name": "Moses Moody",
+            "number": "4"
+        },
+        "4433247": {
+            "name": "Jonathan Kuminga",
+            "number": "00"
+        },
+        "4709138": {
+            "name": "Brandin Podziemski",
+            "number": "2"
+        },
+        "4871143": {
+            "name": "Usman Garuba",
+            "number": "12"
+        },
+        "4997536": {
+            "name": "Gui Santos",
+            "number": "15"
+        }
+    },
+    "HOU": {
+        "3209": {
+            "name": "Jeff Green",
+            "number": "32"
+        },
+        "4376": {
+            "name": "Boban Marjanovic",
+            "number": "51"
+        },
+        "2527963": {
+            "name": "Victor Oladipo",
+            "number": "3"
+        },
+        "2528779": {
+            "name": "Reggie Bullock Jr.",
+            "number": "25"
+        },
+        "2991230": {
+            "name": "Fred VanVleet",
+            "number": "5"
+        },
+        "3136777": {
+            "name": "Jae'Sean Tate",
+            "number": "8"
+        },
+        "3146557": {
+            "name": "Jock Landale",
+            "number": "2"
+        },
+        "3155526": {
+            "name": "Dillon Brooks",
+            "number": "9"
+        },
+        "3922230": {
+            "name": "Aaron Holiday",
+            "number": "0"
+        },
+        "4278588": {
+            "name": "Jermaine Samuels Jr.",
+            "number": "00"
+        },
+        "4396629": {
+            "name": "Nate Hinton",
+            "number": "14"
+        },
+        "4397821": {
+            "name": "Nate Williams",
+            "number": "19"
+        },
+        "4432639": {
+            "name": "Jabari Smith Jr.",
+            "number": "10"
+        },
+        "4433192": {
+            "name": "Tari Eason",
+            "number": "17"
+        },
+        "4437244": {
+            "name": "Jalen Green",
+            "number": "4"
+        },
+        "4684740": {
+            "name": "Amen Thompson",
+            "number": "1"
+        },
+        "4871144": {
+            "name": "Alperen Sengun",
+            "number": "28"
+        },
+        "5105592": {
+            "name": "Cam Whitmore",
+            "number": "7"
+        }
+    },
+    "IND": {
+        "2530530": {
+            "name": "T.J. McConnell",
+            "number": "9"
+        },
+        "2990984": {
+            "name": "Buddy Hield",
+            "number": "7"
+        },
+        "3133628": {
+            "name": "Myles Turner",
+            "number": "33"
+        },
+        "4065670": {
+            "name": "Bruce Brown",
+            "number": "11"
+        },
+        "4277883": {
+            "name": "Jordan Nwora",
+            "number": "13"
+        },
+        "4278355": {
+            "name": "Obi Toppin",
+            "number": "1"
+        },
+        "4395712": {
+            "name": "Andrew Nembhard",
+            "number": "2"
+        },
+        "4396909": {
+            "name": "Aaron Nesmith",
+            "number": "23"
+        },
+        "4396993": {
+            "name": "Tyrese Haliburton",
+            "number": "0"
+        },
+        "4397189": {
+            "name": "Jalen Smith",
+            "number": "25"
+        },
+        "4431727": {
+            "name": "Isaiah Wong",
+            "number": "21"
+        },
+        "4432170": {
+            "name": "Isaiah Jackson",
+            "number": "22"
+        },
+        "4432827": {
+            "name": "Oscar Tshiebwe",
+            "number": "44"
+        },
+        "4433076": {
+            "name": "Ben Sheppard",
+            "number": "26"
+        },
+        "4433254": {
+            "name": "Kendall Brown",
+            "number": "10"
+        },
+        "4683634": {
+            "name": "Bennedict Mathurin",
+            "number": "00"
+        },
+        "5106060": {
+            "name": "Jarace Walker",
+            "number": "5"
+        }
+    },
+    "LAC": {
+        "3033": {
+            "name": "P.J. Tucker",
+            "number": "17"
+        },
+        "3468": {
+            "name": "Russell Westbrook",
+            "number": "0"
+        },
+        "3992": {
+            "name": "James Harden",
+            "number": "1"
+        },
+        "4251": {
+            "name": "Paul George",
+            "number": "13"
+        },
+        "6450": {
+            "name": "Kawhi Leonard",
+            "number": "2"
+        },
+        "2451037": {
+            "name": "Daniel Theis",
+            "number": "10"
+        },
+        "2488653": {
+            "name": "Mason Plumlee",
+            "number": "44"
+        },
+        "2595516": {
+            "name": "Norman Powell",
+            "number": "24"
+        },
+        "3907823": {
+            "name": "Terance Mann",
+            "number": "14"
+        },
+        "3914075": {
+            "name": "Xavier Moon",
+            "number": "15"
+        },
+        "4017837": {
+            "name": "Ivica Zubac",
+            "number": "40"
+        },
+        "4066387": {
+            "name": "Amir Coffey",
+            "number": "7"
+        },
+        "4396818": {
+            "name": "Jordan Miller",
+            "number": "11"
+        },
+        "4431752": {
+            "name": "Kobe Brown",
+            "number": "21"
+        },
+        "4432162": {
+            "name": "Brandon Boston Jr.",
+            "number": "4"
+        },
+        "4433249": {
+            "name": "Moussa Diabate",
+            "number": "25"
+        },
+        "4592492": {
+            "name": "Bones Hyland",
+            "number": "5"
+        },
+        "4702176": {
+            "name": "Joshua Primo",
+            "number": "12"
+        }
+    },
+    "LAL": {
+        "1966": {
+            "name": "LeBron James",
+            "number": "23"
+        },
+        "6583": {
+            "name": "Anthony Davis",
+            "number": "3"
+        },
+        "2990962": {
+            "name": "Taurean Prince",
+            "number": "12"
+        },
+        "3058254": {
+            "name": "Christian Wood",
+            "number": "35"
+        },
+        "3136776": {
+            "name": "D'Angelo Russell",
+            "number": "1"
+        },
+        "3137259": {
+            "name": "Gabe Vincent",
+            "number": "7"
+        },
+        "4066457": {
+            "name": "Austin Reaves",
+            "number": "15"
+        },
+        "4066648": {
+            "name": "Rui Hachimura",
+            "number": "28"
+        },
+        "4278077": {
+            "name": "Jarred Vanderbilt",
+            "number": "2"
+        },
+        "4395627": {
+            "name": "Cam Reddish",
+            "number": "5"
+        },
+        "4397077": {
+            "name": "Jaxson Hayes",
+            "number": "11"
+        },
+        "4397204": {
+            "name": "Colin Castleton",
+            "number": "14"
+        },
+        "4432582": {
+            "name": "Max Christie",
+            "number": "10"
+        },
+        "4684286": {
+            "name": "Maxwell Lewis",
+            "number": "21"
+        },
+        "4702702": {
+            "name": "D'Moi Hodge",
+            "number": "55"
+        },
+        "4896481": {
+            "name": "Alex Fudge",
+            "number": "17"
+        },
+        "5105797": {
+            "name": "Jalen Hood-Schifino",
+            "number": "0"
+        }
+    },
+    "MEM": {
+        "3456": {
+            "name": "Derrick Rose",
+            "number": "23"
+        },
+        "6427": {
+            "name": "Bismack Biyombo",
+            "number": "18"
+        },
+        "2990992": {
+            "name": "Marcus Smart",
+            "number": "36"
+        },
+        "2991235": {
+            "name": "Steven Adams",
+            "number": "4"
+        },
+        "2991274": {
+            "name": "Shaquille Harrison",
+            "number": "1"
+        },
+        "3134932": {
+            "name": "John Konchar",
+            "number": "46"
+        },
+        "3906665": {
+            "name": "Brandon Clarke",
+            "number": "15"
+        },
+        "3913174": {
+            "name": "Luke Kennard",
+            "number": "10"
+        },
+        "4066320": {
+            "name": "Desmond Bane",
+            "number": "22"
+        },
+        "4277961": {
+            "name": "Jaren Jackson Jr.",
+            "number": "13"
+        },
+        "4277964": {
+            "name": "Xavier Tillman",
+            "number": "2"
+        },
+        "4278378": {
+            "name": "Jacob Gilyard",
+            "number": "0"
+        },
+        "4278541": {
+            "name": "Jaylen Nowell",
+            "number": "24"
+        },
+        "4279888": {
+            "name": "Ja Morant",
+            "number": "12"
+        },
+        "4397227": {
+            "name": "Vince Williams Jr.",
+            "number": "5"
+        },
+        "4433137": {
+            "name": "Ziaire Williams",
+            "number": "8"
+        },
+        "4585610": {
+            "name": "Kenneth Lofton Jr.",
+            "number": "6"
+        },
+        "4592691": {
+            "name": "Jake LaRavia",
+            "number": "3"
+        },
+        "4593041": {
+            "name": "David Roddy",
+            "number": "21"
+        },
+        "4593125": {
+            "name": "Santi Aldama",
+            "number": "7"
+        },
+        "5105550": {
+            "name": "GG Jackson",
+            "number": "45"
+        }
+    },
+    "MIA": {
+        "3012": {
+            "name": "Kyle Lowry",
+            "number": "7"
+        },
+        "3449": {
+            "name": "Kevin Love",
+            "number": "42"
+        },
+        "6430": {
+            "name": "Jimmy Butler",
+            "number": "22"
+        },
+        "2581190": {
+            "name": "Josh Richardson",
+            "number": "0"
+        },
+        "3138160": {
+            "name": "Caleb Martin",
+            "number": "16"
+        },
+        "3157465": {
+            "name": "Duncan Robinson",
+            "number": "55"
+        },
+        "3934723": {
+            "name": "Thomas Bryant",
+            "number": "31"
+        },
+        "4066261": {
+            "name": "Bam Adebayo",
+            "number": "13"
+        },
+        "4066993": {
+            "name": "Dru Smith",
+            "number": "9"
+        },
+        "4278572": {
+            "name": "Jamal Cain",
+            "number": "8"
+        },
+        "4291678": {
+            "name": "Haywood Highsmith",
+            "number": "24"
+        },
+        "4395725": {
+            "name": "Tyler Herro",
+            "number": "14"
+        },
+        "4397134": {
+            "name": "Cole Swider",
+            "number": "21"
+        },
+        "4432848": {
+            "name": "Jaime Jaquez Jr.",
+            "number": "11"
+        },
+        "4590530": {
+            "name": "R.J. Hampton",
+            "number": "4"
+        },
+        "4593049": {
+            "name": "Orlando Robinson",
+            "number": "25"
+        },
+        "4997528": {
+            "name": "Nikola Jovic",
+            "number": "5"
+        }
+    },
+    "MIL": {
+        "3447": {
+            "name": "Robin Lopez",
+            "number": "42"
+        },
+        "3448": {
+            "name": "Brook Lopez",
+            "number": "11"
+        },
+        "6581": {
+            "name": "Jae Crowder",
+            "number": "99"
+        },
+        "6606": {
+            "name": "Damian Lillard",
+            "number": "0"
+        },
+        "6609": {
+            "name": "Khris Middleton",
+            "number": "22"
+        },
+        "2578239": {
+            "name": "Pat Connaughton",
+            "number": "24"
+        },
+        "3032977": {
+            "name": "Giannis Antetokounmpo",
+            "number": "34"
+        },
+        "3064230": {
+            "name": "Cameron Payne",
+            "number": "15"
+        },
+        "3064482": {
+            "name": "Bobby Portis",
+            "number": "9"
+        },
+        "3102533": {
+            "name": "Thanasis Antetokounmpo",
+            "number": "43"
+        },
+        "3907822": {
+            "name": "Malik Beasley",
+            "number": "5"
+        },
+        "4065652": {
+            "name": "Marques Bolden",
+            "number": "12"
+        },
+        "4277887": {
+            "name": "Lindell Wigginton",
+            "number": "28"
+        },
+        "4397475": {
+            "name": "AJ Green",
+            "number": "20"
+        },
+        "4432179": {
+            "name": "MarJon Beauchamp",
+            "number": "3"
+        },
+        "4432190": {
+            "name": "Andre Jackson Jr.",
+            "number": "44"
+        },
+        "4433622": {
+            "name": "Chris Livingston",
+            "number": "7"
+        },
+        "4683749": {
+            "name": "TyTy Washington Jr.",
+            "number": "23"
+        }
+    },
+    "MIN": {
+        "3195": {
+            "name": "Mike Conley",
+            "number": "10"
+        },
+        "2993874": {
+            "name": "Kyle Anderson",
+            "number": "1"
+        },
+        "3032976": {
+            "name": "Rudy Gobert",
+            "number": "27"
+        },
+        "3134916": {
+            "name": "Jordan McLaughlin",
+            "number": "6"
+        },
+        "3136195": {
+            "name": "Karl-Anthony Towns",
+            "number": "32"
+        },
+        "3915195": {
+            "name": "Shake Milton",
+            "number": "18"
+        },
+        "4277951": {
+            "name": "Luka Garza",
+            "number": "55"
+        },
+        "4278039": {
+            "name": "Nickeil Alexander-Walker",
+            "number": "9"
+        },
+        "4278508": {
+            "name": "Troy Brown Jr.",
+            "number": "23"
+        },
+        "4396971": {
+            "name": "Naz Reid",
+            "number": "11"
+        },
+        "4431671": {
+            "name": "Jaden McDaniels",
+            "number": "3"
+        },
+        "4432176": {
+            "name": "Daishen Nix",
+            "number": "12"
+        },
+        "4432247": {
+            "name": "Jaylen Clark",
+            "number": "0"
+        },
+        "4592187": {
+            "name": "Wendell Moore Jr.",
+            "number": "7"
+        },
+        "4594268": {
+            "name": "Anthony Edwards",
+            "number": "5"
+        },
+        "4687718": {
+            "name": "Josh Minott",
+            "number": "8"
+        },
+        "5044385": {
+            "name": "Leonard Miller",
+            "number": "33"
+        }
+    },
+    "NO": {
+        "6477": {
+            "name": "Jonas Valanciunas",
+            "number": "17"
+        },
+        "2490149": {
+            "name": "CJ McCollum",
+            "number": "3"
+        },
+        "2579258": {
+            "name": "Cody Zeller",
+            "number": "40"
+        },
+        "2580365": {
+            "name": "Larry Nance Jr.",
+            "number": "22"
+        },
+        "3908336": {
+            "name": "Matt Ryan",
+            "number": "37"
+        },
+        "3913176": {
+            "name": "Brandon Ingram",
+            "number": "14"
+        },
+        "4277813": {
+            "name": "Herbert Jones",
+            "number": "5"
+        },
+        "4277869": {
+            "name": "Jose Alvarado",
+            "number": "15"
+        },
+        "4278594": {
+            "name": "Naji Marshall",
+            "number": "8"
+        },
+        "4395628": {
+            "name": "Zion Williamson",
+            "number": "1"
+        },
+        "4395698": {
+            "name": "Kira Lewis Jr.",
+            "number": "13"
+        },
+        "4397688": {
+            "name": "Trey Murphy III",
+            "number": "25"
+        },
+        "4431811": {
+            "name": "Dereon Seabron",
+            "number": "0"
+        },
+        "4432813": {
+            "name": "Jeremiah Robinson-Earl",
+            "number": "50"
+        },
+        "4432821": {
+            "name": "E.J. Liddell",
+            "number": "32"
+        },
+        "4683750": {
+            "name": "Jordan Hawkins",
+            "number": "24"
+        },
+        "4869342": {
+            "name": "Dyson Daniels",
+            "number": "11"
+        }
+    },
+    "NYK": {
+        "6588": {
+            "name": "Evan Fournier",
+            "number": "13"
+        },
+        "2991047": {
+            "name": "Ryan Arcidiacono",
+            "number": "51"
+        },
+        "3062679": {
+            "name": "Josh Hart",
+            "number": "3"
+        },
+        "3064514": {
+            "name": "Julius Randle",
+            "number": "30"
+        },
+        "3906786": {
+            "name": "Dylan Windler",
+            "number": "20"
+        },
+        "3913220": {
+            "name": "DaQuan Jeffries",
+            "number": "8"
+        },
+        "3934672": {
+            "name": "Jalen Brunson",
+            "number": "11"
+        },
+        "3934673": {
+            "name": "Donte DiVincenzo",
+            "number": "0"
+        },
+        "4066508": {
+            "name": "Charlie Brown Jr.",
+            "number": "16"
+        },
+        "4222252": {
+            "name": "Isaiah Hartenstein",
+            "number": "55"
+        },
+        "4277922": {
+            "name": "Jericho Sims",
+            "number": "45"
+        },
+        "4351852": {
+            "name": "Mitchell Robinson",
+            "number": "23"
+        },
+        "4395625": {
+            "name": "RJ Barrett",
+            "number": "9"
+        },
+        "4395724": {
+            "name": "Immanuel Quickley",
+            "number": "5"
+        },
+        "4397014": {
+            "name": "Quentin Grimes",
+            "number": "6"
+        },
+        "4431823": {
+            "name": "Miles McBride",
+            "number": "2"
+        },
+        "4592461": {
+            "name": "Jacob Toppin",
+            "number": "00"
+        },
+        "5149711": {
+            "name": "Jaylen Martin",
+            "number": ""
+        }
+    },
+    "OKC": {
+        "6426": {
+            "name": "Davis Bertans",
+            "number": "9"
+        },
+        "3102532": {
+            "name": "Vasilije Micic",
+            "number": "29"
+        },
+        "3133626": {
+            "name": "Kenrich Williams",
+            "number": "34"
+        },
+        "4066317": {
+            "name": "Lindy Waters III",
+            "number": "12"
+        },
+        "4278046": {
+            "name": "Olivier Sarr",
+            "number": "30"
+        },
+        "4278073": {
+            "name": "Shai Gilgeous-Alexander",
+            "number": "2"
+        },
+        "4395702": {
+            "name": "Isaiah Joe",
+            "number": "11"
+        },
+        "4395714": {
+            "name": "Keyontae Johnson",
+            "number": "18"
+        },
+        "4397020": {
+            "name": "Luguentz Dort",
+            "number": "5"
+        },
+        "4397183": {
+            "name": "Aaron Wiggins",
+            "number": "21"
+        },
+        "4432819": {
+            "name": "Tre Mann",
+            "number": "23"
+        },
+        "4432823": {
+            "name": "Jaylin Williams",
+            "number": "6"
+        },
+        "4433255": {
+            "name": "Chet Holmgren",
+            "number": "7"
+        },
+        "4593803": {
+            "name": "Jalen Williams",
+            "number": "8"
+        },
+        "4683018": {
+            "name": "Aleksej Pokusevski",
+            "number": "17"
+        },
+        "4683692": {
+            "name": "Cason Wallace",
+            "number": "22"
+        },
+        "4871145": {
+            "name": "Josh Giddey",
+            "number": "3"
+        },
+        "4997526": {
+            "name": "Ousmane Dieng",
+            "number": "13"
+        }
+    },
+    "ORL": {
+        "2968436": {
+            "name": "Joe Ingles",
+            "number": "7"
+        },
+        "2999547": {
+            "name": "Gary Harris",
+            "number": "14"
+        },
+        "3150844": {
+            "name": "Moritz Wagner",
+            "number": "21"
+        },
+        "3918423": {
+            "name": "Admiral Schofield",
+            "number": "25"
+        },
+        "4065654": {
+            "name": "Jonathan Isaac",
+            "number": "1"
+        },
+        "4066636": {
+            "name": "Markelle Fultz",
+            "number": "20"
+        },
+        "4067858": {
+            "name": "Kevon Harris",
+            "number": "8"
+        },
+        "4277847": {
+            "name": "Wendell Carter Jr.",
+            "number": "34"
+        },
+        "4278052": {
+            "name": "Chuma Okeke",
+            "number": "3"
+        },
+        "4348700": {
+            "name": "Goga Bitadze",
+            "number": "35"
+        },
+        "4409222": {
+            "name": "Trevelin Queen",
+            "number": "12"
+        },
+        "4432165": {
+            "name": "Jalen Suggs",
+            "number": "4"
+        },
+        "4432573": {
+            "name": "Paolo Banchero",
+            "number": "5"
+        },
+        "4432809": {
+            "name": "Cole Anthony",
+            "number": "50"
+        },
+        "4433623": {
+            "name": "Caleb Houstan",
+            "number": "2"
+        },
+        "4566434": {
+            "name": "Franz Wagner",
+            "number": "22"
+        },
+        "4712849": {
+            "name": "Anthony Black",
+            "number": "0"
+        },
+        "5105806": {
+            "name": "Jett Howard",
+            "number": "13"
+        }
+    },
+    "PHI": {
+        "3416": {
+            "name": "Nicolas Batum",
+            "number": "40"
+        },
+        "3964": {
+            "name": "Patrick Beverley",
+            "number": "22"
+        },
+        "6440": {
+            "name": "Tobias Harris",
+            "number": "12"
+        },
+        "6462": {
+            "name": "Marcus Morris Sr.",
+            "number": "5"
+        },
+        "2490620": {
+            "name": "Robert Covington",
+            "number": "33"
+        },
+        "2991155": {
+            "name": "Danuel House Jr.",
+            "number": "25"
+        },
+        "3059318": {
+            "name": "Joel Embiid",
+            "number": "21"
+        },
+        "3133603": {
+            "name": "Kelly Oubre Jr.",
+            "number": "9"
+        },
+        "3929325": {
+            "name": "Furkan Korkmaz",
+            "number": "30"
+        },
+        "4066436": {
+            "name": "De'Anthony Melton",
+            "number": "8"
+        },
+        "4277919": {
+            "name": "Mo Bamba",
+            "number": "7"
+        },
+        "4278562": {
+            "name": "Paul Reed",
+            "number": "44"
+        },
+        "4396972": {
+            "name": "Javonte Smart",
+            "number": "39"
+        },
+        "4431678": {
+            "name": "Tyrese Maxey",
+            "number": "0"
+        },
+        "4431828": {
+            "name": "KJ Martin",
+            "number": "1"
+        },
+        "4432164": {
+            "name": "Jaden Springer",
+            "number": "11"
+        },
+        "4683940": {
+            "name": "Terquavion Smith",
+            "number": "23"
+        },
+        "4701234": {
+            "name": "Ricky Council IV",
+            "number": "16"
+        }
+    },
+    "PHX": {
+        "3202": {
+            "name": "Kevin Durant",
+            "number": "35"
+        },
+        "3431": {
+            "name": "Eric Gordon",
+            "number": "23"
+        },
+        "6580": {
+            "name": "Bradley Beal",
+            "number": "3"
+        },
+        "2595209": {
+            "name": "Damion Lee",
+            "number": "10"
+        },
+        "3102530": {
+            "name": "Jusuf Nurkic",
+            "number": "20"
+        },
+        "3133838": {
+            "name": "Yuta Watanabe",
+            "number": "18"
+        },
+        "3135045": {
+            "name": "Grayson Allen",
+            "number": "8"
+        },
+        "3136193": {
+            "name": "Devin Booker",
+            "number": "1"
+        },
+        "3136779": {
+            "name": "Keita Bates-Diop",
+            "number": "21"
+        },
+        "3914283": {
+            "name": "Chimezie Metu",
+            "number": "4"
+        },
+        "3914285": {
+            "name": "Drew Eubanks",
+            "number": "14"
+        },
+        "4065663": {
+            "name": "Josh Okogie",
+            "number": "2"
+        },
+        "4066299": {
+            "name": "Udoka Azubuike",
+            "number": "27"
+        },
+        "4278124": {
+            "name": "Saben Lee",
+            "number": "38"
+        },
+        "4278402": {
+            "name": "Jordan Goodwin",
+            "number": "0"
+        },
+        "4395652": {
+            "name": "Nassir Little",
+            "number": "25"
+        },
+        "4397102": {
+            "name": "Bol Bol",
+            "number": "11"
+        }
+    },
+    "POR": {
+        "2566769": {
+            "name": "Malcolm Brogdon",
+            "number": "11"
+        },
+        "2991070": {
+            "name": "Jerami Grant",
+            "number": "9"
+        },
+        "3059307": {
+            "name": "Ish Wainright",
+            "number": "23"
+        },
+        "3907498": {
+            "name": "Matisse Thybulle",
+            "number": "4"
+        },
+        "4066211": {
+            "name": "Robert Williams III",
+            "number": "35"
+        },
+        "4066268": {
+            "name": "Duop Reath",
+            "number": "26"
+        },
+        "4066269": {
+            "name": "Skylar Mays",
+            "number": "5"
+        },
+        "4278111": {
+            "name": "Justin Minaya",
+            "number": "24"
+        },
+        "4278129": {
+            "name": "Deandre Ayton",
+            "number": "2"
+        },
+        "4351851": {
+            "name": "Anfernee Simons",
+            "number": "1"
+        },
+        "4397126": {
+            "name": "Moses Brown",
+            "number": "10"
+        },
+        "4431736": {
+            "name": "Toumani Camara",
+            "number": "33"
+        },
+        "4432446": {
+            "name": "Jabari Walker",
+            "number": "34"
+        },
+        "4594326": {
+            "name": "Kris Murray",
+            "number": "8"
+        },
+        "4683678": {
+            "name": "Scoot Henderson",
+            "number": "00"
+        },
+        "4871140": {
+            "name": "Ibou Badji",
+            "number": "41"
+        },
+        "4914336": {
+            "name": "Shaedon Sharpe",
+            "number": "17"
+        },
+        "5099752": {
+            "name": "Rayan Rupert",
+            "number": "72"
+        }
+    },
+    "SAC": {
+        "3452": {
+            "name": "JaVale McGee",
+            "number": "00"
+        },
+        "6578": {
+            "name": "Harrison Barnes",
+            "number": "40"
+        },
+        "2596107": {
+            "name": "Alex Len",
+            "number": "25"
+        },
+        "3136196": {
+            "name": "Trey Lyles",
+            "number": "41"
+        },
+        "3155942": {
+            "name": "Domantas Sabonis",
+            "number": "10"
+        },
+        "3893014": {
+            "name": "Sasha Vezenkov",
+            "number": "7"
+        },
+        "4066259": {
+            "name": "De'Aaron Fox",
+            "number": "5"
+        },
+        "4066262": {
+            "name": "Malik Monk",
+            "number": "0"
+        },
+        "4066372": {
+            "name": "Kevin Huerter",
+            "number": "9"
+        },
+        "4066736": {
+            "name": "Jordan Ford",
+            "number": "31"
+        },
+        "4278053": {
+            "name": "Davion Mitchell",
+            "number": "15"
+        },
+        "4397693": {
+            "name": "Kessler Edwards",
+            "number": "17"
+        },
+        "4398207": {
+            "name": "Jalen Slawson",
+            "number": "18"
+        },
+        "4433378": {
+            "name": "Colby Jones",
+            "number": "20"
+        },
+        "4592402": {
+            "name": "Chris Duarte",
+            "number": "3"
+        },
+        "4594327": {
+            "name": "Keegan Murray",
+            "number": "13"
+        },
+        "4702177": {
+            "name": "Keon Ellis",
+            "number": "23"
+        }
+    },
+    "SAS": {
+        "2528588": {
+            "name": "Doug McDermott",
+            "number": "17"
+        },
+        "3133601": {
+            "name": "Devonte' Graham",
+            "number": "4"
+        },
+        "3893016": {
+            "name": "Cedi Osman",
+            "number": "16"
+        },
+        "4066650": {
+            "name": "Zach Collins",
+            "number": "23"
+        },
+        "4278580": {
+            "name": "Sandro Mamukelashvili",
+            "number": "54"
+        },
+        "4280181": {
+            "name": "Sir'Jabari Rice",
+            "number": "11"
+        },
+        "4395626": {
+            "name": "Tre Jones",
+            "number": "33"
+        },
+        "4395630": {
+            "name": "Devin Vassell",
+            "number": "24"
+        },
+        "4395723": {
+            "name": "Keldon Johnson",
+            "number": "3"
+        },
+        "4397886": {
+            "name": "Charles Bassey",
+            "number": "28"
+        },
+        "4565201": {
+            "name": "Malaki Branham",
+            "number": "22"
+        },
+        "4565203": {
+            "name": "Charles Bediako",
+            "number": "27"
+        },
+        "4592479": {
+            "name": "Julian Champagnie",
+            "number": "30"
+        },
+        "4610139": {
+            "name": "Jeremy Sochan",
+            "number": "10"
+        },
+        "4683935": {
+            "name": "Blake Wesley",
+            "number": "14"
+        },
+        "4870562": {
+            "name": "Dominick Barlow",
+            "number": "26"
+        },
+        "5081727": {
+            "name": "Sidy Cissoko",
+            "number": "25"
+        },
+        "5104157": {
+            "name": "Victor Wembanyama",
+            "number": "1"
+        }
+    },
+    "TOR": {
+        "3244": {
+            "name": "Thaddeus Young",
+            "number": "21"
+        },
+        "4023": {
+            "name": "Garrett Temple",
+            "number": "14"
+        },
+        "2594922": {
+            "name": "Otto Porter Jr.",
+            "number": "32"
+        },
+        "3032979": {
+            "name": "Dennis Schroder",
+            "number": "17"
+        },
+        "3134908": {
+            "name": "Jakob Poeltl",
+            "number": "19"
+        },
+        "3149673": {
+            "name": "Pascal Siakam",
+            "number": "43"
+        },
+        "3934719": {
+            "name": "O.G. Anunoby",
+            "number": "3"
+        },
+        "3948153": {
+            "name": "Chris Boucher",
+            "number": "25"
+        },
+        "4066668": {
+            "name": "Malachi Flynn",
+            "number": "22"
+        },
+        "4066731": {
+            "name": "Jalen McDaniels",
+            "number": "2"
+        },
+        "4277843": {
+            "name": "Gary Trent Jr.",
+            "number": "33"
+        },
+        "4278103": {
+            "name": "Jontay Porter",
+            "number": "11"
+        },
+        "4397251": {
+            "name": "Ron Harper Jr.",
+            "number": "8"
+        },
+        "4397511": {
+            "name": "Javon Freeman-Liberty",
+            "number": "0"
+        },
+        "4397554": {
+            "name": "Markquis Nowell",
+            "number": "24"
+        },
+        "4431679": {
+            "name": "Precious Achiuwa",
+            "number": "5"
+        },
+        "4431778": {
+            "name": "Christian Koloko",
+            "number": "35"
+        },
+        "4433134": {
+            "name": "Scottie Barnes",
+            "number": "4"
+        },
+        "5106258": {
+            "name": "Gradey Dick",
+            "number": "1"
+        }
+    },
+    "UTAH": {
+        "2489663": {
+            "name": "Kelly Olynyk",
+            "number": "41"
+        },
+        "2528426": {
+            "name": "Jordan Clarkson",
+            "number": "00"
+        },
+        "2991139": {
+            "name": "Kris Dunn",
+            "number": "11"
+        },
+        "3074213": {
+            "name": "Omer Yurtseven",
+            "number": "77"
+        },
+        "3899664": {
+            "name": "Simone Fontecchio",
+            "number": "16"
+        },
+        "3908845": {
+            "name": "John Collins",
+            "number": "20"
+        },
+        "4066336": {
+            "name": "Lauri Markkanen",
+            "number": "23"
+        },
+        "4066399": {
+            "name": "Micah Potter",
+            "number": "25"
+        },
+        "4277811": {
+            "name": "Collin Sexton",
+            "number": "2"
+        },
+        "4396991": {
+            "name": "Talen Horton-Tucker",
+            "number": "5"
+        },
+        "4397018": {
+            "name": "Ochai Agbaji",
+            "number": "30"
+        },
+        "4423309": {
+            "name": "Luka Samanic",
+            "number": "19"
+        },
+        "4432168": {
+            "name": "Josh Christopher",
+            "number": "13"
+        },
+        "4432817": {
+            "name": "Johnny Juzang",
+            "number": "33"
+        },
+        "4433136": {
+            "name": "Walker Kessler",
+            "number": "24"
+        },
+        "4433627": {
+            "name": "Keyonte George",
+            "number": "3"
+        },
+        "4684806": {
+            "name": "Taylor Hendricks",
+            "number": "0"
+        },
+        "5105839": {
+            "name": "Brice Sensabaugh",
+            "number": "8"
+        }
+    },
+    "WAS": {
+        "3428": {
+            "name": "Danilo Gallinari",
+            "number": "88"
+        },
+        "2490089": {
+            "name": "Mike Muscala",
+            "number": "35"
+        },
+        "2581184": {
+            "name": "Anthony Gill",
+            "number": "16"
+        },
+        "3064447": {
+            "name": "Delon Wright",
+            "number": "55"
+        },
+        "3134907": {
+            "name": "Kyle Kuzma",
+            "number": "33"
+        },
+        "3135046": {
+            "name": "Tyus Jones",
+            "number": "5"
+        },
+        "3914044": {
+            "name": "Landry Shamet",
+            "number": "20"
+        },
+        "4066410": {
+            "name": "Eugene Omoruyi",
+            "number": "97"
+        },
+        "4277956": {
+            "name": "Jordan Poole",
+            "number": "13"
+        },
+        "4278049": {
+            "name": "Daniel Gafford",
+            "number": "21"
+        },
+        "4280151": {
+            "name": "Corey Kispert",
+            "number": "24"
+        },
+        "4395695": {
+            "name": "Jared Butler",
+            "number": "4"
+        },
+        "4397127": {
+            "name": "Jules Bernard",
+            "number": "24"
+        },
+        "4432356": {
+            "name": "Johnny Davis",
+            "number": "1"
+        },
+        "4432588": {
+            "name": "John Butler Jr.",
+            "number": "19"
+        },
+        "4433246": {
+            "name": "Patrick Baldwin Jr.",
+            "number": "7"
+        },
+        "4591725": {
+            "name": "Ryan Rollins",
+            "number": "9"
+        },
+        "4683021": {
+            "name": "Deni Avdija",
+            "number": "8"
+        },
+        "5104155": {
+            "name": "Bilal Coulibaly",
+            "number": "0"
+        }
+    }
+}
