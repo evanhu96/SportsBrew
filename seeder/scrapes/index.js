@@ -17,6 +17,7 @@ const {
   createRosters,
   createRankings,
   createFirstHits,
+  createOdds
 } = require("./types");
 db.on("error", console.error.bind(console, "connection error:"));
 db.once("open", async () => {
@@ -117,4 +118,5 @@ db.once("open", async () => {
   await main();
   console.log("done");
   await createRankings();
+  await createOdds();
 });

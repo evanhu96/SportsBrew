@@ -16,10 +16,11 @@ import PropCalculator from "./pages/PropCalculator";
 import Rankings from "./pages/Rankings";
 import Stats from "./pages/Stats";
 const httpLink = createHttpLink({
-  uri: "http://3.141.216.229:3001/graphql",
-  // uri: "http://localhost:3001/graphql", // Replace with your server's GraphQL endpoint
+  // uri: "http://3.141.216.229:3001/graphql",
+  uri: "http://localhost:3001/graphql",
+   // Replace with your server's GraphQL endpoint
 });
-// scp -r -i ./sports_brew.pem <build file path>/* <SSL connection string>:~/<folder name>
+// scp -r -i ./sports_brew.pem ./client/build/* ubuntu@ec2-3-141-216-229.us-east-2.compute.amazonaws.com:~/client
 const authLink = setContext((_, { headers }) => {
   const token = localStorage.getItem("id_token");
   return {

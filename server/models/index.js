@@ -7,6 +7,8 @@ const TeamGame = require("./TeamGame");
 const RosterSpot = require("./RosterSpot");
 const Rankings = require("./Rankings");
 const FirstHit = require("./FirstHit");
+const Odds = require("./Odds");
+const GameToday = require("./GameToday");
 module.exports = {
   Profile,
   Game,
@@ -17,4 +19,6 @@ module.exports = {
   TeamGame,
   Rankings,
   FirstHit,
+  Odds,
+  GameToday,
 };

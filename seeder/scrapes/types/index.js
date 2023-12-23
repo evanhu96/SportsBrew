@@ -4,6 +4,7 @@ const createPlays = require("./createPlays");
 const createGames = require("./createGames");
 const createRankings = require("./createRankings");
 const createFirstHits = require("./createFirstHits");
+const createOdds = require("./createOdds");
 module.exports = {
     createRosters,
     createGames,
@@ -11,4 +12,5 @@ module.exports = {
     createPlays,
     createRankings,
     createFirstHits,
+    createOdds
 }
