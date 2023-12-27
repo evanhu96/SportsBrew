@@ -1,0 +1,45 @@
+
+  .division{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:50vw;
+  }
+
+  .teamButton{
+    width: 20vw;
+    margin: 5px;
+  }
+  .playerCard{
+    width: 35vw;
+    height:70vh;
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .propButton{
+    height:4vh;
+    width: 5vw;
+  }
+  .firstItem{
+    width: 5vw;
+  }
+
+  .calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 85vh;
+    border: 1px solid white;
+    border-radius: 20%;
+  }
+  .column {
+    display: inline-block;
+    width: calc(100% / 3); /* Adjust width for 3 columns */
+    vertical-align: top;
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust padding as needed */
+  }
+ 

@@ -1,0 +1,36 @@
+/* ButtonGrid.css */
+#homeContainer {
+  width: 50vw;
+}
+.button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn-lg {
+  padding: 20px 30px; /* Increase padding to make buttons larger */
+  font-size: 20px; /* Increase font size */
+  margin: 5px; /* Adjust margin between buttons */
+}
+
+.buttonCol {
+  display: flex;
+  justify-content: center;
+}
+.homeButtons {
+  width: 20vw;
+}
+
+.listRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  width: 60vw;
+}
+
+.statPage {
+  display: flex;
+}
+
