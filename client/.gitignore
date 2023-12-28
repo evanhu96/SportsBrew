@@ -5,7 +5,7 @@
 /node_modules
 /.pnp
 .pnp.js
-new_sport_key.pem
+.pem
 
 # testing
 /coverage
