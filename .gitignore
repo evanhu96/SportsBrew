@@ -24,3 +24,5 @@ yarn-debug.log*
 yarn-error.log*
 
 .pem
+new_sport_key
+new_sport_key.pem
