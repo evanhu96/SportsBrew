@@ -1,24 +1,22 @@
 const fs = require("fs");
 const { Odds, GameToday } = require("../../../server/models");
-const teams = require("../teams");
+const teams = require("../teams").nba_teams
 const containerPath = ".sportsbook-table__body";
 const { Builder, By } = require("selenium-webdriver");
 const firefox = require("selenium-webdriver/firefox");
 
 const driver_helper = async (url) => {
-    try{
-  
-      const driver = await new Builder().forBrowser("firefox").build();
-      driver.manage().window().maximize();
-      console.log("url", url);
-      // Navigate to the page
-      await driver.get(url);
-      return driver;
-    } catch (err) {
-      console.log(err);
-    }
-    
-  };
+  try {
+    const driver = await new Builder().forBrowser("firefox").build();
+    driver.manage().window().maximize();
+    console.log("url", url);
+    // Navigate to the page
+    await driver.get(url);
+    return driver;
+  } catch (err) {
+    console.log(err);
+  }
+};
 function convertAmericanOddsToPercent(americanOdds) {
   // Get and remover first character from the string
   const sign = americanOdds.charAt(0);
@@ -32,7 +30,7 @@ function convertAmericanOddsToPercent(americanOdds) {
     return (-(-oddsValue) / (-(-oddsValue) + 100)) * 100;
   }
 }
-async function getOdds(url, prop,away,home) {
+async function getOdds(url, prop, away, home) {
   console.log("Scraping:", url);
   // Set up Firefox options
   const options = new firefox.Options();
@@ -71,7 +69,7 @@ async function getOdds(url, prop,away,home) {
       }
       const overPercent = convertAmericanOddsToPercent(over[2]);
       const underPercent = convertAmericanOddsToPercent(under[2]);
- 
+
       objects.push({
         name: name,
         away,
@@ -82,7 +80,7 @@ async function getOdds(url, prop,away,home) {
         underOdds: under[2],
         overPercent: parseFloat(overPercent.toFixed(2)),
         underPercent: parseFloat(underPercent.toFixed(2)),
-        prop
+        prop,
       });
     }
     return objects;
@@ -179,9 +177,8 @@ const main = async () => {
     games.push(...gameData);
   }
   await Odds.deleteMany({});
-  await Odds.insertMany(gameData);
+  await Odds.insertMany(games);
 
-
-  return
+  return;
 };
 module.exports = main;
