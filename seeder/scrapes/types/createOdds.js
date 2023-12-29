@@ -1,8 +1,6 @@
-const { driver_helper } = require("./helpers/index.js");
-const { getOdds } = require("./controllers/index.js");
 const fs = require("fs");
 const { Odds, GameToday } = require("../../../server/models");
-const teams = require("./teams");
+const teams = require("../teams");
 const containerPath = ".sportsbook-table__body";
 const { Builder, By } = require("selenium-webdriver");
 const firefox = require("selenium-webdriver/firefox");
@@ -180,7 +178,6 @@ const main = async () => {
     }
     games.push(...gameData);
   }
-  const gameData = games.flat();
   await Odds.deleteMany({});
   await Odds.insertMany(gameData);
 

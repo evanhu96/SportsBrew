@@ -42,4 +42,11 @@
     box-sizing: border-box;
     padding: 0 10px; /* Adjust padding as needed */
   }
- 
+  .highlight-red {
+    background-color: rgb(241, 132, 132);
+  }
+  
+  .highlight-green {
+    background-color: rgb(134, 250, 134);
+  }
+  

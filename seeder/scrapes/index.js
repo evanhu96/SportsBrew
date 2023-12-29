@@ -92,11 +92,11 @@ db.once("open", async () => {
 
   const main = async () => {
     const gameIds = [];
-    // const rosters = {};
-    const rosters = require("./rosters.json");
+    const rosters = {};
+    // const rosters = require("./rosters.json");
     for (var i = 0; i < teams.length; i++) {
       const team = teams[i];
-      // rosters[team] = await createRosters(team);
+      rosters[team] = await createRosters(team);
       await delay(1000);
       const url = `https://www.espn.com/nba/team/schedule/_/name/${team}/season/2024`;
       const ids = await getGameList(url);
@@ -115,8 +115,8 @@ db.once("open", async () => {
     }
 
   };
-  await main();
+  // await main();
   console.log("done");
   await createRankings();
-  await createOdds();
+  // await createOdds();
 });

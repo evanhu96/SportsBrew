@@ -1,9 +1,21 @@
 // ButtonGrid.js
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from "react-router-dom";
+import { Container, Row, Col, Button } from "react-bootstrap";
+import { GET_ODDS } from "../utils/queries";
+import { useQuery } from "@apollo/client";
+import React, { useEffect } from "react";
+import { useOddsContext } from "../context/OddsContext";
 
 const ButtonGrid = () => {
+  const { setOdds } = useOddsContext();
+  const { data, loading, error } = useQuery(GET_ODDS);
+
+  useEffect(() => {
+    if (data) {
+      setOdds(data); // Set the odds data in the context
+    }
+  }, [data, setOdds]);
+
   return (
     <Container id="homeContainer">
       <Row className="button-row">

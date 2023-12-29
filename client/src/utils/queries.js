@@ -25,41 +25,41 @@ export const FIRST_HITS_TYPE = gql`
   }
 `;
 export const QUERY_TEAM_PLAYERS = gql`
-query Query($team: String) {
-  teamPlayers(team: $team) {
-    _id
-    name
-    team
-    MIN
-    FGA
-    FGM
-    FTA
-    FTM
-    OREB
-    DREB
-    REB
-    AST
-    STL
-    BLK
-    TO
-    PF
-    plusMinus
-    PTS
-    type
-    firstHits {
-      make
-      assist
-      foul
-      block
-      reb
-      steal
-      timeout
-      subOut
-      subIn
-      turnover
+  query Query($team: String) {
+    teamPlayers(team: $team) {
+      _id
+      name
+      team
+      MIN
+      FGA
+      FGM
+      FTA
+      FTM
+      OREB
+      DREB
+      REB
+      AST
+      STL
+      BLK
+      TO
+      PF
+      plusMinus
+      PTS
+      type
+      firstHits {
+        make
+        assist
+        foul
+        block
+        reb
+        steal
+        timeout
+        subOut
+        subIn
+        turnover
+      }
     }
   }
-}
 `;
 // Define the CalcInput type
 export const CALC_INPUT_TYPE = gql`
@@ -75,6 +75,21 @@ export const QUERY_PROP_CALC = gql`
     propCalc(inputs: $inputs, team: $team) {
       streak
       value
+    }
+  }
+`;
+export const GET_ODDS = gql`
+  query Odds {
+    odds {
+      _id
+      home
+      away
+      overAmt
+      underAmt
+      overOdds
+      underOdds
+      prop
+      name
     }
   }
 `;

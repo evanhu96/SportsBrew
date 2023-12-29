@@ -9,7 +9,7 @@ async function main() {
     const players = await dailyAveragesPlayers();
     console.log("Players created");
     const teams = await dailyAveragesTeams();
-    console.log(teams);
+    // console.log(players);
     await Rankings.deleteMany({});
     console.log("Rankings deleted");
     await Rankings.insertMany([...players, ...teams]);

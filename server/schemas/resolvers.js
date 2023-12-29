@@ -1,4 +1,4 @@
-const { RosterSpot, Rankings, BoxScore, Player, Game } = require("../models");
+const { RosterSpot, Rankings, BoxScore, Player, Game,Odds } = require("../models");
 
 const resolvers = {
   Query: {
@@ -70,6 +70,7 @@ const resolvers = {
         ];
 
         const result = await Rankings.aggregate(aggregatePipeline);
+        console.log(result.length);
         const playerIds = result.map((player) => player.playerId);
         const epoch1MonthAgo = new Date().getTime() - 2592000000;
         const firstHitPipeLine = [
@@ -274,6 +275,15 @@ const resolvers = {
           value: hitRate,
           streak: streak,
         };
+      } catch (error) {
+        // Handle errors appropriately
+        throw new Error("Could not fetch rankings: " + error.message);
+      }
+    },
+    odds: async (_, {}) => {
+      try {
+        const result = await Odds.find({});
+        return result;
       } catch (error) {
         // Handle errors appropriately
         throw new Error("Could not fetch rankings: " + error.message);

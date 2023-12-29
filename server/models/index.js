@@ -1,4 +1,3 @@
-const Profile = require("./Profile");
 const Game = require("./Game");
 const BoxScore = require("./BoxScore");
 const Play = require("./Play");
@@ -10,7 +9,6 @@ const FirstHit = require("./FirstHit");
 const Odds = require("./Odds");
 const GameToday = require("./GameToday");
 module.exports = {
-  Profile,
   Game,
   BoxScore,
   Play,

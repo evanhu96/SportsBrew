@@ -44,6 +44,17 @@ const typeDefs = gql`
     streak: Int
     value: Float
   }
+  type Odd{
+    _id:ID
+    home:String
+    away:String
+    overAmt:Float
+    underAmt:Float
+    overOdds:String
+    underOdds:String
+    prop:String
+    name:String
+  }
   input CalcInput {
     name: String
     prop: String
@@ -53,6 +64,7 @@ const typeDefs = gql`
     propCalc(inputs: [CalcInput],team:String): Calculation!
     rankingsValues(type: String, prop: String, side: Float): [RankingsValues]!
     teamPlayers(team: String): [RankingsArray]!
+    odds: [Odd]!
   }
 `;
 

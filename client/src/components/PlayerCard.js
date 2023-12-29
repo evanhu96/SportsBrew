@@ -1,21 +1,28 @@
 // import button from react
 
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button, Container, Stack, Table } from "react-bootstrap";
-import { useQuery } from "@apollo/client";
-import { QUERY_TEAM_PLAYERS } from "../utils/queries";
-const PlayerCard = ({ player }) => {
+// import css
+import "./app.css";
+
+const propNamer = {
+  PTS: "point",
+  AST: "assist",
+  REB: "rebound",
+};
+const PlayerCard = ({ player, odds, team }) => {
   const [statType, setStatType] = useState("");
   const [prop, setProp] = useState("PTS");
   const [input, setInput] = useState(0);
-  const [team, setTeam] = useState("");
-  const { loading, error, data, refetch } = useQuery(QUERY_TEAM_PLAYERS, {
-    variables: { team: "" },
-  });
-  useEffect(() => {
-    refetch({ team: team });
-  }, [team]);
+  // find odds with player.name and team props
+  const playerOdds = odds.odds.find(
+    (odd) =>
+      (odd.home === team || odd.away === team) &&
+      odd.prop === propNamer[prop] &&
+      player.name === odd.name
+  );
+
   const percent =
     (player[prop].filter((x) => x > input).length / player[prop].length) * 100;
 
@@ -69,19 +76,35 @@ const PlayerCard = ({ player }) => {
     return max;
   };
 
-  const renderRows = () => {
+  const renderRows = (oddsAmt) => {
     const rows = [];
     for (let i = 2; i <= 10; i++) {
+      const minValue = getMin(i) - 0.5;
+      const maxValue = getMax(i) - 0.5;
+  
+      let minClass = '';
+      let maxClass = '';
+  
+      // Check conditions to determine classes for highlighting
+      if (maxValue < oddsAmt) {
+        maxClass = 'highlight-red';
+        console.log(i)
+      }
+      if (minValue > oddsAmt) {
+        minClass = 'highlight-green';
+      }
+      console.log(maxClass)
       rows.push(
         <tr key={i}>
           <td className="text-center firstItem">{i}</td>
-          <td className="text-center">{getMin(i) - 0.5}</td>
-          <td className="text-center">{getMax(i) - 0.5}</td>
+          <td className={`text-center ${minClass}`}>{minValue}</td>
+          <td className={`text-center ${maxClass}`}>{maxValue}</td>
         </tr>
       );
     }
     return rows;
   };
+  
   const renderFirstHits = () => {
     const firstHits = player.firstHits;
     const keysToSkip = ["__typename", "_id", "name", "team", "type"];
@@ -153,13 +176,12 @@ const PlayerCard = ({ player }) => {
           >
             {statType === "streaks" && (
               <Table border="1">
-                
                 <tr>
                   <th className="text-center firstItem"># of games</th>
                   <th className="text-center">Over</th>
                   <th className="text-center">Under</th>
                 </tr>
-                {renderRows()}
+                {renderRows(playerOdds.overAmt)}
               </Table>
             )}
             {statType === "rate" && (
