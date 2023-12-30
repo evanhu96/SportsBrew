@@ -1,10 +1,7 @@
 var teams = require("./teams").nba_teams;
 teams = Object.values(teams);
 teams = teams.filter((team, index) => teams.indexOf(team) === index);
-const Play = require("../../server/models/Play");
-const BoxScore = require("../../server/models/BoxScore");
-const Game = require("../../server/models/Game");
-const FirstHit = require("../../server/models/FirstHit");
+const  { Game, BoxScore, Play, Player, RosterSpot, TeamGame, Rankings, FirstHit, Odds, GameToday, } = require("../../server/models");
 fs = require("fs");
 const db = require("../../server/config/connection");
 const delay = (ms) => new Promise((res) => setTimeout(res, ms));
@@ -92,11 +89,13 @@ db.once("open", async () => {
 
   const main = async () => {
     const gameIds = [];
-    // const rosters = {};
-    const rosters = require("./rosters.json");
+    const rosters = {};
+    await RosterSpot.deleteMany({});
+    // const rosters = require("./rosters.json");
     for (var i = 0; i < teams.length; i++) {
       const team = teams[i];
-      // rosters[team] = await createRosters(team);
+      if (team==="NY" )continue
+      rosters[team] = await createRosters(team);
       await delay(1000);
       const url = `https://www.espn.com/nba/team/schedule/_/name/${team}/season/2024`;
       const ids = await getGameList(url);

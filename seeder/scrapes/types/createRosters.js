@@ -5,9 +5,11 @@ const RosterSpot = require("../../../server/models/RosterSpot");
 const containerPath = `#fittPageContainer > div:nth-child(2) > div:nth-child(5) > div > div:nth-child(1) > section > div > section > div:nth-child(2) > div > div:nth-child(2) > div > div:nth-child(2) > table > tbody
 `;
 const getRoster = async (team) => {
+  console.log("Scraping:", team);
   // clear rosterspot
 
-  await RosterSpot.deleteMany({team})
+  // await delay(1000);
+
   const url = "https://www.espn.com/nba/team/roster/_/name/" + team;
   const roster = {};
   try {
