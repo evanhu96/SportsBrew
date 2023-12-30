@@ -12,6 +12,7 @@ const propNamer = {
   REB: "rebound",
 };
 const PlayerCard = ({ player, odds, team }) => {
+  console.log(odds)
   const [statType, setStatType] = useState("");
   const [prop, setProp] = useState("PTS");
   const [input, setInput] = useState(0);
@@ -174,7 +175,7 @@ const PlayerCard = ({ player, odds, team }) => {
               justifyContent: "center",
             }}
           >
-            {statType === "streaks" && (
+            {statType === "streaks" && playerOdds && (
               <Table border="1">
                 <tr>
                   <th className="text-center firstItem"># of games</th>
